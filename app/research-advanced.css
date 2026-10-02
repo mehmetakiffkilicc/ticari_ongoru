@@ -1,0 +1,132 @@
+.advanced-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:22px}.advanced-heading h2{font-size:24px;color:#15385e}.advanced-heading h3{font-size:19px;color:#15385e}.advanced-heading p{font-size:13px;color:#48627c;line-height:1.7;max-width:72ch;margin-top:8px}.advanced-heading label,.geo-tools label,.scenario-inputs label{display:flex;flex-direction:column;gap:7px;font-size:12px;color:#314e6d}.advanced-heading select,.geo-tools select,.scenario-inputs input,.advanced-search{border:1px solid #a9bed2;background:#fff;border-radius:5px;padding:10px;font:inherit;color:#183d65}.advanced-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}.advanced-tabs button,.geo-tools button{border:1px solid #bccde0;background:#fff;color:#245581;border-radius:5px;padding:10px 14px;font:inherit;font-size:12px;cursor:pointer}.advanced-tabs button[aria-pressed=true]{background:#173e69;color:#fff;border-color:#173e69}.advanced-tabs small{margin-left:5px}.advanced-note{font-size:12px;color:#48627c;line-height:1.7;margin:16px 0}.advanced-empty{padding:24px;background:#f2f6fa;color:#48627c;font-size:13px;line-height:1.7}.advanced-table{overflow:auto;width:100%}.advanced-table table{width:100%;border-collapse:collapse;white-space:nowrap;text-align:left}.advanced-table th{font-size:11px;font-weight:650;color:#425e7b;padding:13px 14px;background:#f3f6fa}.advanced-table td{font-size:13px;color:#173a5f;padding:17px 14px;border-bottom:1px solid #dce5ef;font-variant-numeric:tabular-nums}.advanced-table small{display:block;font-size:11px;color:#4b647d;margin-top:5px}.category-explorer{padding:26px;background:#fff;border:1px solid #d2deea;border-radius:8px}.advanced-search{margin-bottom:20px;width:min(100%,360px)}.category-detail{margin-top:30px;padding-top:26px;border-top:1px solid #bccfe2}.analysis-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;margin:24px 0}.analysis-facts dt{font-size:12px;color:#48627c}.analysis-facts dd{font-size:24px;font-weight:700;color:#163b66;margin:10px 0;font-variant-numeric:tabular-nums}.analysis-facts small{font-size:11px;color:#48627c}.product-performance{padding:24px 0;border-bottom:1px solid #d3dfee;margin-bottom:24px}.recommendation-row{display:grid;grid-template-columns:minmax(160px,1fr) minmax(220px,2fr) auto;gap:25px;align-items:start;border-top:1px solid #d4e0eb;padding:22px 0}.recommendation-row h4{font-size:15px;margin:9px 0}.recommendation-row h4 button{border:0;background:none;color:#195380;font:inherit;padding:0;cursor:pointer;text-align:left}.recommendation-row p{font-size:13px;line-height:1.7;color:#294c70}.recommendation-row small{font-size:11px;color:#506780}.recommendation-kind{font-size:11px;background:#e7f0f7;color:#234f74;padding:5px 8px;border-radius:4px}.recommendation-row .advanced-note{font-size:11px;margin-bottom:0}.customer-recommendations details,.stock-scenario details,.geo-workbench details{font-size:12px;color:#3f5e7d;line-height:1.7;margin:15px 0}.customer-recommendations summary,.stock-scenario summary,.geo-workbench summary{cursor:pointer;font-weight:650}.geo-workbench{background:#fff;border:1px solid #cfdeeb;border-radius:9px;padding:24px;margin-bottom:24px}.geo-tools{display:flex;align-items:flex-end;gap:9px;flex-wrap:wrap;margin-bottom:16px}.geo-tools span{font-size:11px;color:#526e87;align-self:center;margin-left:auto}.geo-map{width:100%;aspect-ratio:2/1;background:#eef5fa;display:block;touch-action:pan-y;cursor:grab;border-radius:6px}.geo-map:active{cursor:grabbing}.geo-map circle{cursor:pointer}.geo-map text{fill:#18394f;paint-order:stroke;stroke:#f6f9fc;stroke-width:.04px;font-weight:600}.geo-legend{display:flex;align-items:center;flex-wrap:wrap;gap:5px;color:#385976;font-size:11px;margin-top:16px}.geo-legend span{display:inline-flex;align-items:center;gap:6px;margin-right:12px}.geo-legend i{display:inline-block;width:17px;height:12px;border:1px solid #a2b8ce;border-radius:2px}.geo-selection{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:#f0f5fa;padding:15px;margin-top:16px;font-size:13px;color:#1e466c}.geo-selection button{font:inherit;border:0;background:none;text-decoration:underline;color:#214b76;cursor:pointer}.geo-workbench a{color:#215684;text-decoration:underline}.stock-scenario{margin:20px 0;border-top:1px solid #d4e0eb;padding:24px 0}.scenario-inputs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.scenario-inputs input{width:100%;min-width:0}.stock-detail{overflow:auto;max-height:90vh}.geo-workbench :is(button,select):focus-visible,.geo-map:focus-visible,.geo-map circle:focus-visible,.advanced-tabs button:focus-visible,.recommendation-row button:focus-visible{outline:3px solid #286cb5;outline-offset:3px}.geo-map circle:focus-visible{stroke:#102f50;stroke-width:1px}
+@media(max-width:900px){.recommendation-row{grid-template-columns:1fr 2fr}.recommendation-row>.secondary{grid-column:2}.geo-workbench{padding:18px}.analysis-facts{gap:16px}.analysis-facts dd{font-size:20px}}
+@media(max-width:600px){.recommendation-row{grid-template-columns:1fr;gap:14px}.recommendation-row>.secondary{grid-column:auto;justify-self:start}.analysis-facts,.scenario-inputs{grid-template-columns:1fr}.analysis-facts>div{padding-bottom:12px;border-bottom:1px solid #dce5ef}.category-explorer{padding:18px}.geo-map{min-height:240px;aspect-ratio:auto}.geo-tools label{width:100%}.geo-tools select{width:100%}.geo-tools span{margin-left:0}.advanced-heading{gap:12px}.geo-legend{line-height:1.7}}
+.stock-detail .stock-scenario{margin:20px;padding:24px 0}.stock-detail{box-shadow:none}.stock-scenario input:focus-visible,.advanced-search:focus-visible{outline:3px solid #286cb5;outline-offset:2px}
+
+/* Modern Siyasi Atlas & Coğrafi Analiz Stilleri */
+.geo-workbench.modern-atlas{border-radius:12px;box-shadow:0 2px 10px rgba(15,23,42,.04);border:1px solid #cbd5e1}
+.geo-canvas-container{border-radius:8px;border:1px solid #bfdbfe;background:#eaf2f9;box-shadow:inset 0 1px 4px rgba(0,0,0,.04)}
+.geo-map.modern-svg{background:#e2eef8;width:100%;aspect-ratio:2/1;cursor:grab;user-select:none;touch-action:none}
+.geo-map.modern-svg:active{cursor:grabbing}
+.country-polygon{transition:fill .15s ease,stroke .15s ease}
+.country-polygon.has-data{cursor:pointer}
+.country-polygon.has-data:hover{filter:brightness(.95);stroke:#2563eb}
+.interactive-badge{transition:transform .12s ease;user-select:none}
+.interactive-badge:hover{filter:brightness(1.03)}
+.city-group{transition:transform .15s ease}
+.city-group:hover circle:first-child{fill-opacity:.4}
+.city-group.selected circle:first-child{fill-opacity:.5}
+.geo-zoom-controls{display:flex;gap:4px;align-items:center}
+.geo-zoom-controls button{font-weight:700;padding:8px 12px;font-size:13px}
+.geo-status-indicator{font-size:12px;color:#1e40af;background:#eff6ff;padding:6px 12px;border-radius:20px;font-weight:600;border:1px solid #bfdbfe}
+.geo-selection.modern-card{border-radius:8px;border:1px solid #bfdbfe;background:#f8fafc;padding:18px;margin-top:16px}
+.geo-selection-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.geo-selection-header h4{margin:0;font-size:16px;color:#0f172a}
+.geo-selection-header button{background:none;border:none;color:#2563eb;font-weight:600;text-decoration:underline;cursor:pointer;font-size:12px}
+.geo-selection-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:14px}
+.geo-selection-metrics div{background:#fff;padding:10px 14px;border-radius:6px;border:1px solid #e2e8f0}
+.geo-selection-metrics span{display:block;font-size:11px;color:#64748b;margin-bottom:4px}
+.geo-selection-metrics strong{font-size:15px;color:#0f172a}
+.text-negative{color:#ef4444!important}
+
+/* Siyasi İl Sınırları & Kloroplet Harita Stilleri */
+.choropleth-svg{background:#dbeafe;border-radius:8px}
+.country-border{stroke-linejoin:round;stroke-linecap:round}
+.country-border.has-activity:hover{filter:brightness(.92);stroke:#1e3a8a}
+.region-boundary{stroke-linejoin:round;stroke-linecap:round}
+.region-boundary:hover{filter:brightness(.93);stroke:#0f172a;stroke-width:0.12px}
+.region-boundary.selected-region{filter:brightness(.95);stroke:#1d4ed8;stroke-width:0.22px}
+
+/* Eşik Lejant Barı */
+.choropleth-legend-bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:#fff;border:1px solid #cbd5e1;border-radius:8px;padding:12px 18px;margin-top:16px}
+.geo-hover-pill{position:absolute;bottom:14px;left:14px;background:rgba(15,23,42,0.88);color:#fff;padding:8px 14px;border-radius:20px;font-size:12px;backdrop-filter:blur(4px);pointer-events:none;box-shadow:0 4px 12px rgba(0,0,0,0.15);display:flex;align-items:center;gap:6px;z-index:10}
+.geo-hover-pill strong{color:#93c5fd}
+
+.legend-title{font-size:12px;font-weight:700;color:#1e293b}
+.legend-items{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.legend-step{display:flex;align-items:center;gap:6px}
+.step-color{display:inline-block;width:18px;height:12px;border-radius:3px}
+.step-label{font-size:11px;font-weight:600;color:#475569}
+
+/* Seçili İl Detay Kartı ve Şehirler */
+.selected-region-cities{margin-top:14px;padding-top:12px;border-top:1px solid #e2e8f0}
+.selected-region-cities>span{display:block;font-size:12px;font-weight:600;color:#334155;margin-bottom:8px}
+.cities-tag-list{display:flex;gap:8px;flex-wrap:wrap}
+.city-pill{background:#e0f2fe;color:#0369a1;padding:4px 10px;border-radius:14px;font-size:11px;font-weight:600;border:1px solid #bae6fd}
+
+/* Modern Minimalist Yönetici Haritası Ek Sınıfları */
+.modern-minimal-edition{border:1px solid #e2e8f0;background:#ffffff;box-shadow:0 4px 20px -2px rgba(15,23,42,0.05);padding:24px;border-radius:14px}
+.minimal-header{margin-bottom:18px}
+.geo-title-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.geo-title-row h3{font-size:20px;font-weight:700;color:#0f172a;letter-spacing:-0.02em;margin:0}
+.geo-badge-live{background:#ecfdf5;color:#059669;border:1px solid #a7f3d0;font-size:11px;font-weight:650;padding:3px 10px;border-radius:20px;display:inline-flex;align-items:center}
+.geo-header-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.geo-mode-switcher{display:flex;background:#f1f5f9;padding:3px;border-radius:8px;border:1px solid #e2e8f0}
+.geo-mode-switcher button{background:none;border:none;padding:6px 12px;font-size:12px;font-weight:600;color:#64748b;border-radius:6px;cursor:pointer;transition:all 0.15s ease}
+.geo-mode-switcher button.active{background:#ffffff;color:#0f172a;box-shadow:0 1px 3px rgba(0,0,0,0.08)}
+.geo-metric-picker{display:flex;flex-direction:row;align-items:center;gap:8px;font-size:12px;font-weight:600;color:#475569}
+.geo-metric-picker select{padding:6px 10px;font-size:12px;border:1px solid #cbd5e1;border-radius:6px;background:#ffffff;color:#0f172a}
+
+.minimal-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:#f8fafc;padding:10px 14px;border-radius:10px;border:1px solid #e2e8f0;margin-bottom:14px}
+.geo-focus-buttons{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.btn-quick-focus{background:#ffffff;border:1px solid #cbd5e1;color:#334155;font-size:12px;font-weight:600;padding:6px 12px;border-radius:6px;cursor:pointer;transition:all 0.15s ease;display:inline-flex;align-items:center;gap:6px}
+.btn-quick-focus:hover{background:#f1f5f9;border-color:#94a3b8;color:#0f172a}
+.btn-quick-focus.highlight{background:#047857;color:#ffffff;border-color:#047857;box-shadow:0 2px 6px rgba(4,120,87,0.25)}
+.btn-quick-focus.highlight:hover{background:#065f46}
+
+.dot-pulse{width:7px;height:7px;border-radius:50%;background:#34d399;display:inline-block;animation:pulseDot 1.8s infinite}
+@keyframes pulseDot{0%{transform:scale(0.9);opacity:0.8}50%{transform:scale(1.4);opacity:1}100%{transform:scale(0.9);opacity:0.8}}
+
+.geo-filter-group{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.geo-filter-group label{flex-direction:row;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#475569}
+.geo-filter-group select{padding:6px 10px;font-size:12px;border:1px solid #cbd5e1;border-radius:6px;background:#ffffff}
+
+.modern-glass-canvas{border-radius:12px;border:1px solid #cbd5e1;background:#f1f5f9;box-shadow:inset 0 1px 4px rgba(15,23,42,0.03)}
+.modern-minimal-svg{background:#f8fafc;width:100%;aspect-ratio:1.65/1;min-height:500px;cursor:grab;display:block;touch-action:none}
+.modern-minimal-svg:active{cursor:grabbing}
+
+.geo-floating-hud{position:absolute;top:12px;right:12px;background:rgba(255,255,255,0.92);backdrop-filter:blur(8px);border:1px solid rgba(203,213,225,0.8);border-radius:10px;padding:8px 14px;box-shadow:0 4px 14px rgba(15,23,42,0.06);pointer-events:none;z-index:10;display:flex;flex-direction:column;gap:3px}
+.hud-metric-row{display:flex;align-items:center;gap:6px;font-size:12px;color:#0f172a}
+.hud-metric-row strong{color:#047857}
+.hud-indicator-dot{width:6px;height:6px;border-radius:50%;background:#10b981}
+.hud-stats-row{display:flex;align-items:center;gap:6px;font-size:11px;color:#64748b;font-weight:600}
+.hud-stats-row small{color:#94a3b8}
+
+.minimal-legend{border-radius:10px;border:1px solid #e2e8f0;background:#f8fafc;padding:10px 16px}
+.minimal-card{border-radius:10px;border:1px solid #e2e8f0;background:#f8fafc}
+
+/* Metin Taramasını / Mavi Seçimi Tamamen Engelle (user-select: none & transparent selection) */
+.geo-workbench,
+.geo-workbench *,
+.geo-canvas-container,
+.geo-canvas-container *,
+.geo-map,
+.geo-map *,
+.modern-minimal-svg,
+.modern-minimal-svg * {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.geo-map text,
+.modern-minimal-svg text,
+.geo-workbench text {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  cursor: default !important;
+}
+
+.geo-map ::selection,
+.modern-minimal-svg ::selection,
+.geo-canvas-container ::selection,
+.geo-workbench ::selection {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+
+

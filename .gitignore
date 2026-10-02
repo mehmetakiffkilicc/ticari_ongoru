@@ -1,0 +1,23 @@
+node_modules/
+.next/
+.npm-cache/
+/data/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.env*
+!.env.example
+test-results/
+*.log
+.serena/
+graphify-out/
+
+# Local business data and exports must never be published.
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.csv
+*.xlsx
+*.xls
+*.parquet
